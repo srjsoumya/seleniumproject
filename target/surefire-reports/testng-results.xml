@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
     <line>
       <![CDATA[Goto The Simple Form Demo Page]]>
@@ -40,13 +40,118 @@
     <line>
       <![CDATA[Assert The Actual sum with the expected sum]]>
     </line>
+    <line>
+      <![CDATA[Goto Vheckbox demo page]]>
+    </line>
+    <line>
+      <![CDATA[Select the first CheckBox ]]>
+    </line>
+    <line>
+      <![CDATA[Retrive the Actual message after selecting chekbox]]>
+    </line>
+    <line>
+      <![CDATA[Retrive the Expected message from excel Sheet]]>
+    </line>
+    <line>
+      <![CDATA[Assert the actual message with Expected message]]>
+    </line>
+    <line>
+      <![CDATA[Click the check all button]]>
+    </line>
+    <line>
+      <![CDATA[Retrive the status of all check box]]>
+    </line>
+    <line>
+      <![CDATA[Assert the status with expected status]]>
+    </line>
+    <line>
+      <![CDATA[Retrive the status of the Button]]>
+    </line>
+    <line>
+      <![CDATA[Retrive the expected status frm excel sheet]]>
+    </line>
+    <line>
+      <![CDATA[Assert the expected button status with actual button status]]>
+    </line>
+    <line>
+      <![CDATA[Goto The Simple Form Demo Page]]>
+    </line>
+    <line>
+      <![CDATA[Retrive the message from the Excel sheet]]>
+    </line>
+    <line>
+      <![CDATA[Write the message to the Text Box Field]]>
+    </line>
+    <line>
+      <![CDATA[Click the show message Button]]>
+    </line>
+    <line>
+      <![CDATA[Retrive The displayed Message from the UI]]>
+    </line>
+    <line>
+      <![CDATA[Assert the Expected message with the actual message]]>
+    </line>
+    <line>
+      <![CDATA[Retrive A value from The Excel Sheet]]>
+    </line>
+    <line>
+      <![CDATA[Retrive A value from The Excel Sheet]]>
+    </line>
+    <line>
+      <![CDATA[Put the value of A into text Field]]>
+    </line>
+    <line>
+      <![CDATA[Put the value of B into text Field]]>
+    </line>
+    <line>
+      <![CDATA[Click The get total Button to get the Summation]]>
+    </line>
+    <line>
+      <![CDATA[Retrive the total value from the UI]]>
+    </line>
+    <line>
+      <![CDATA[Assert The Actual sum with the expected sum]]>
+    </line>
+    <line>
+      <![CDATA[Goto Vheckbox demo page]]>
+    </line>
+    <line>
+      <![CDATA[Select the first CheckBox ]]>
+    </line>
+    <line>
+      <![CDATA[Retrive the Actual message after selecting chekbox]]>
+    </line>
+    <line>
+      <![CDATA[Retrive the Expected message from excel Sheet]]>
+    </line>
+    <line>
+      <![CDATA[Assert the actual message with Expected message]]>
+    </line>
+    <line>
+      <![CDATA[Click the check all button]]>
+    </line>
+    <line>
+      <![CDATA[Retrive the status of all check box]]>
+    </line>
+    <line>
+      <![CDATA[Assert the status with expected status]]>
+    </line>
+    <line>
+      <![CDATA[Retrive the status of the Button]]>
+    </line>
+    <line>
+      <![CDATA[Retrive the expected status frm excel sheet]]>
+    </line>
+    <line>
+      <![CDATA[Assert the expected button status with actual button status]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="9215" started-at="2018-06-18T19:50:04Z" finished-at="2018-06-18T19:50:14Z">
+  <suite name="Suite" duration-ms="31549" started-at="2018-06-18T21:54:19Z" finished-at="2018-06-18T21:54:50Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="9215" started-at="2018-06-18T19:50:04Z" finished-at="2018-06-18T19:50:14Z">
-      <class name="InputForm">
-        <test-method status="PASS" signature="beforeConfigBrowser(java.lang.String)[pri:0, instance:InputForm@36f6e879]" name="beforeConfigBrowser" is-config="true" duration-ms="1628" started-at="2018-06-18T19:50:04Z" finished-at="2018-06-18T19:50:06Z">
+    <test name="Test1" duration-ms="10769" started-at="2018-06-18T21:54:19Z" finished-at="2018-06-18T21:54:29Z">
+      <class name="InputForms">
+        <test-method status="PASS" signature="beforeConfigBrowser(java.lang.String)[pri:0, instance:InputForms@54a097cc]" name="beforeConfigBrowser" is-config="true" duration-ms="1947" started-at="2018-06-18T21:54:19Z" finished-at="2018-06-18T21:54:21Z">
           <params>
             <param index="0">
               <value>
@@ -57,11 +162,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeConfigBrowser -->
-        <test-method status="PASS" signature="openUrl()[pri:0, instance:InputForm@36f6e879]" name="openUrl" is-config="true" duration-ms="3383" started-at="2018-06-18T19:50:06Z" finished-at="2018-06-18T19:50:09Z">
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:InputForms@54a097cc]" name="openUrl" is-config="true" duration-ms="4146" started-at="2018-06-18T21:54:21Z" finished-at="2018-06-18T21:54:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method status="PASS" signature="inputFormsTest()[pri:0, instance:InputForm@36f6e879]" name="inputFormsTest" duration-ms="4102" started-at="2018-06-18T19:50:09Z" finished-at="2018-06-18T19:50:13Z">
+        <test-method status="PASS" signature="simpleFormTest()[pri:1, instance:InputForms@54a097cc]" name="simpleFormTest" duration-ms="2083" started-at="2018-06-18T21:54:25Z" finished-at="2018-06-18T21:54:27Z">
           <reporter-output>
             <line>
               <![CDATA[Goto The Simple Form Demo Page]]>
@@ -103,12 +208,176 @@
               <![CDATA[Assert The Actual sum with the expected sum]]>
             </line>
           </reporter-output>
-        </test-method> <!-- inputFormsTest -->
-        <test-method status="PASS" signature="afterConfigBrowser()[pri:0, instance:InputForm@36f6e879]" name="afterConfigBrowser" is-config="true" duration-ms="75" started-at="2018-06-18T19:50:13Z" finished-at="2018-06-18T19:50:14Z">
+        </test-method> <!-- simpleFormTest -->
+        <test-method status="PASS" signature="returnHome()[pri:0, instance:InputForms@54a097cc]" name="returnHome" is-config="true" duration-ms="550" started-at="2018-06-18T21:54:27Z" finished-at="2018-06-18T21:54:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnHome -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:InputForms@54a097cc]" name="openUrl" is-config="true" duration-ms="239" started-at="2018-06-18T21:54:27Z" finished-at="2018-06-18T21:54:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="checkBoxTest()[pri:2, instance:InputForms@54a097cc]" name="checkBoxTest" duration-ms="1313" started-at="2018-06-18T21:54:28Z" finished-at="2018-06-18T21:54:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Goto Vheckbox demo page]]>
+            </line>
+            <line>
+              <![CDATA[Select the first CheckBox ]]>
+            </line>
+            <line>
+              <![CDATA[Retrive the Actual message after selecting chekbox]]>
+            </line>
+            <line>
+              <![CDATA[Retrive the Expected message from excel Sheet]]>
+            </line>
+            <line>
+              <![CDATA[Assert the actual message with Expected message]]>
+            </line>
+            <line>
+              <![CDATA[Click the check all button]]>
+            </line>
+            <line>
+              <![CDATA[Retrive the status of all check box]]>
+            </line>
+            <line>
+              <![CDATA[Assert the status with expected status]]>
+            </line>
+            <line>
+              <![CDATA[Retrive the status of the Button]]>
+            </line>
+            <line>
+              <![CDATA[Retrive the expected status frm excel sheet]]>
+            </line>
+            <line>
+              <![CDATA[Assert the expected button status with actual button status]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkBoxTest -->
+        <test-method status="PASS" signature="returnHome()[pri:0, instance:InputForms@54a097cc]" name="returnHome" is-config="true" duration-ms="394" started-at="2018-06-18T21:54:29Z" finished-at="2018-06-18T21:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnHome -->
+        <test-method status="PASS" signature="afterConfigBrowser()[pri:0, instance:InputForms@54a097cc]" name="afterConfigBrowser" is-config="true" duration-ms="73" started-at="2018-06-18T21:54:29Z" finished-at="2018-06-18T21:54:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterConfigBrowser -->
-      </class> <!-- InputForm -->
-    </test> <!-- Test -->
+      </class> <!-- InputForms -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="20761" started-at="2018-06-18T21:54:29Z" finished-at="2018-06-18T21:54:50Z">
+      <class name="InputForms">
+        <test-method status="PASS" signature="beforeConfigBrowser(java.lang.String)[pri:0, instance:InputForms@5afa04c]" name="beforeConfigBrowser" is-config="true" duration-ms="8601" started-at="2018-06-18T21:54:29Z" finished-at="2018-06-18T21:54:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeConfigBrowser -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:InputForms@5afa04c]" name="openUrl" is-config="true" duration-ms="5216" started-at="2018-06-18T21:54:38Z" finished-at="2018-06-18T21:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="simpleFormTest()[pri:1, instance:InputForms@5afa04c]" name="simpleFormTest" duration-ms="2725" started-at="2018-06-18T21:54:43Z" finished-at="2018-06-18T21:54:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Goto The Simple Form Demo Page]]>
+            </line>
+            <line>
+              <![CDATA[Retrive the message from the Excel sheet]]>
+            </line>
+            <line>
+              <![CDATA[Write the message to the Text Box Field]]>
+            </line>
+            <line>
+              <![CDATA[Click the show message Button]]>
+            </line>
+            <line>
+              <![CDATA[Retrive The displayed Message from the UI]]>
+            </line>
+            <line>
+              <![CDATA[Assert the Expected message with the actual message]]>
+            </line>
+            <line>
+              <![CDATA[Retrive A value from The Excel Sheet]]>
+            </line>
+            <line>
+              <![CDATA[Retrive A value from The Excel Sheet]]>
+            </line>
+            <line>
+              <![CDATA[Put the value of A into text Field]]>
+            </line>
+            <line>
+              <![CDATA[Put the value of B into text Field]]>
+            </line>
+            <line>
+              <![CDATA[Click The get total Button to get the Summation]]>
+            </line>
+            <line>
+              <![CDATA[Retrive the total value from the UI]]>
+            </line>
+            <line>
+              <![CDATA[Assert The Actual sum with the expected sum]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- simpleFormTest -->
+        <test-method status="PASS" signature="returnHome()[pri:0, instance:InputForms@5afa04c]" name="returnHome" is-config="true" duration-ms="569" started-at="2018-06-18T21:54:46Z" finished-at="2018-06-18T21:54:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnHome -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:InputForms@5afa04c]" name="openUrl" is-config="true" duration-ms="371" started-at="2018-06-18T21:54:47Z" finished-at="2018-06-18T21:54:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="checkBoxTest()[pri:2, instance:InputForms@5afa04c]" name="checkBoxTest" duration-ms="1767" started-at="2018-06-18T21:54:47Z" finished-at="2018-06-18T21:54:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Goto Vheckbox demo page]]>
+            </line>
+            <line>
+              <![CDATA[Select the first CheckBox ]]>
+            </line>
+            <line>
+              <![CDATA[Retrive the Actual message after selecting chekbox]]>
+            </line>
+            <line>
+              <![CDATA[Retrive the Expected message from excel Sheet]]>
+            </line>
+            <line>
+              <![CDATA[Assert the actual message with Expected message]]>
+            </line>
+            <line>
+              <![CDATA[Click the check all button]]>
+            </line>
+            <line>
+              <![CDATA[Retrive the status of all check box]]>
+            </line>
+            <line>
+              <![CDATA[Assert the status with expected status]]>
+            </line>
+            <line>
+              <![CDATA[Retrive the status of the Button]]>
+            </line>
+            <line>
+              <![CDATA[Retrive the expected status frm excel sheet]]>
+            </line>
+            <line>
+              <![CDATA[Assert the expected button status with actual button status]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkBoxTest -->
+        <test-method status="PASS" signature="returnHome()[pri:0, instance:InputForms@5afa04c]" name="returnHome" is-config="true" duration-ms="422" started-at="2018-06-18T21:54:49Z" finished-at="2018-06-18T21:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnHome -->
+        <test-method status="PASS" signature="afterConfigBrowser()[pri:0, instance:InputForms@5afa04c]" name="afterConfigBrowser" is-config="true" duration-ms="1083" started-at="2018-06-18T21:54:49Z" finished-at="2018-06-18T21:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterConfigBrowser -->
+      </class> <!-- InputForms -->
+    </test> <!-- Test2 -->
   </suite> <!-- Suite -->
 </testng-results>

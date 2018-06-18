@@ -1,9 +1,10 @@
 package objectrepository;
 
+import genericlib.CommonSeleniumMethod;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Home {
+public class Home extends CommonSeleniumMethod {
     @FindBy(xpath = "//li[@class='dropdown']/a[contains(text(),'Input Forms')]")
     private WebElement inputForms;
 
@@ -12,12 +13,10 @@ public class Home {
 
     /**
      * This method is used to go to simple form demo page
-     *
-     * @throws InterruptedException
      */
-    public void gotoSimpleFormDemo() throws InterruptedException {
+    public void gotoSimpleFormDemo() {
         inputForms.click();
-        Thread.sleep(2000);
+        waitForElement(simpleFormDemo);
         simpleFormDemo.click();
     }
 
@@ -26,12 +25,10 @@ public class Home {
 
     /**
      * This method is used to go to checkbox demo page
-     *
-     * @throws InterruptedException
      */
-    public void gotoCheckboxDemo() throws InterruptedException {
+    public void gotoCheckboxDemo() {
         inputForms.click();
-        Thread.sleep(2000);
+        waitForElement(checkboxDemo);
         checkboxDemo.click();
     }
 
@@ -40,12 +37,10 @@ public class Home {
 
     /**
      * This method is used to go to Radio button demo page
-     *
-     * @throws InterruptedException
      */
-    public void gotoRadioButtonsDemo() throws InterruptedException {
+    public void gotoRadioButtonsDemo() {
         inputForms.click();
-        Thread.sleep(2000);
+        waitForElement(radioButtonsDemo);
         radioButtonsDemo.click();
     }
 
@@ -54,12 +49,10 @@ public class Home {
 
     /**
      * This method is used to go to select dropdown demo page
-     *
-     * @throws InterruptedException
      */
-    public void gotoSelectDropdownList() throws InterruptedException {
+    public void gotoSelectDropdownList() {
         inputForms.click();
-        Thread.sleep(2000);
+        waitForElement(selectDropdownList);
         selectDropdownList.click();
     }
 
@@ -68,12 +61,10 @@ public class Home {
 
     /**
      * This method is used to go to input form submit demo page
-     *
-     * @throws InterruptedException
      */
-    public void gotoInputFormSumit() throws InterruptedException {
+    public void gotoInputFormSumit() {
         inputForms.click();
-        Thread.sleep(2000);
+        waitForElement(inputFormSumit);
         inputFormSumit.click();
     }
 
@@ -82,12 +73,10 @@ public class Home {
 
     /**
      * This method is used to go to Ajax form submit demo page
-     *
-     * @throws InterruptedException
      */
-    public void gotoAjaxFormSubmit() throws InterruptedException {
+    public void gotoAjaxFormSubmit() {
         inputForms.click();
-        Thread.sleep(2000);
+        waitForElement(ajaxFormSubmit);
         ajaxFormSubmit.click();
     }
 
@@ -96,12 +85,10 @@ public class Home {
 
     /**
      * This method is used to go to jQuery select Dropdown page
-     *
-     * @throws InterruptedException
      */
-    public void gotoJQuerySelectDropdown() throws InterruptedException {
+    public void gotoJQuerySelectDropdown() {
         inputForms.click();
-        Thread.sleep(2000);
+        waitForElement(jQuerySelectDropdown);
         jQuerySelectDropdown.click();
     }
 
@@ -114,12 +101,10 @@ public class Home {
 
     /**
      * This method is used to go to BootStrap Date picker page
-     *
-     * @throws InterruptedException
      */
-    public void gotoBootStrapDatePicker() throws InterruptedException {
+    public void gotoBootStrapDatePicker() {
         datePickers.click();
-        Thread.sleep(2000);
+        waitForElement(bootStrapDatePicker);
         bootStrapDatePicker.click();
     }
 
@@ -128,12 +113,10 @@ public class Home {
 
     /**
      * This method is used to go to JQuery Date picker page
-     *
-     * @throws InterruptedException
      */
-    public void gotojQueryDatePicker() throws InterruptedException {
+    public void gotojQueryDatePicker() {
         datePickers.click();
-        Thread.sleep(2000);
+        waitForElement(jQueryDatePicker);
         jQueryDatePicker.click();
     }
 
@@ -146,12 +129,10 @@ public class Home {
 
     /**
      * This method is used to go to Table pagination page
-     *
-     * @throws InterruptedException
      */
-    public void gotoTablePagination() throws InterruptedException {
+    public void gotoTablePagination() {
         table.click();
-        Thread.sleep(2000);
+        waitForElement(tablePagination);
         tablePagination.click();
     }
 
@@ -160,12 +141,10 @@ public class Home {
 
     /**
      * This method is used to go to table data search page
-     *
-     * @throws InterruptedException
      */
-    public void gotoTableDateSearch() throws InterruptedException {
+    public void gotoTableDateSearch() {
         table.click();
-        Thread.sleep(2000);
+        waitForElement(tableDataSearch);
         tableDataSearch.click();
     }
 
@@ -174,12 +153,10 @@ public class Home {
 
     /**
      * This method is used to go to table Filter  page
-     *
-     * @throws InterruptedException
      */
-    public void gotoTableFilter() throws InterruptedException {
+    public void gotoTableFilter() {
         table.click();
-        Thread.sleep(2000);
+        waitForElement(tableFilter);
         tableFilter.click();
     }
 
@@ -188,12 +165,10 @@ public class Home {
 
     /**
      * This method is used to go to Table Sort and search page
-     *
-     * @throws InterruptedException
      */
-    public void gotoTableSortSearch() throws InterruptedException {
+    public void gotoTableSortSearch() {
         table.click();
-        Thread.sleep(2000);
+        waitForElement(tableSortSearch);
         tableSortSearch.click();
     }
 
@@ -202,12 +177,10 @@ public class Home {
 
     /**
      * This method is used to go to Table Data Downloads page
-     *
-     * @throws InterruptedException
      */
-    public void gotoTableDataDownloads() throws InterruptedException {
+    public void gotoTableDataDownloads() {
         table.click();
-        Thread.sleep(2000);
+        waitForElement(tableDataDownloads);
         tableDataDownloads.click();
     }
 
@@ -220,12 +193,10 @@ public class Home {
 
     /**
      * This method is used to go to JQuery Download Progress bar page
-     *
-     * @throws InterruptedException
      */
-    public void gotoJQqueryDownloadProgressBars() throws InterruptedException {
+    public void gotoJQqueryDownloadProgressBars() {
         progressBars.click();
-        Thread.sleep(2000);
+        waitForElement(jQueryDownloadProgressBars);
         jQueryDownloadProgressBars.click();
     }
 
@@ -234,12 +205,10 @@ public class Home {
 
     /**
      * This method is used to go to BootStrap Progress Bar page
-     *
-     * @throws InterruptedException
      */
-    public void gotoBootStrapProgressbar() throws InterruptedException {
+    public void gotoBootStrapProgressbar() {
         progressBars.click();
-        Thread.sleep(2000);
+        waitForElement(bootStrapProgressbar);
         bootStrapProgressbar.click();
     }
 
@@ -248,12 +217,10 @@ public class Home {
 
     /**
      * This method is used to go to Drag and drop Slider page
-     *
-     * @throws InterruptedException
      */
-    public void gotoDragNDropSlider() throws InterruptedException {
+    public void gotoDragNDropSlider() {
         progressBars.click();
-        Thread.sleep(2000);
+        waitForElement(dragNDropSlider);
         dragNDropSlider.click();
     }
 
@@ -266,12 +233,10 @@ public class Home {
 
     /**
      * This method is used to go to BootStrap Alert page
-     *
-     * @throws InterruptedException
      */
-    public void gotoBootStrapAlerts() throws InterruptedException {
+    public void gotoBootStrapAlerts() {
         alert.click();
-        Thread.sleep(2000);
+        waitForElement(bootStrapAlerts);
         bootStrapAlerts.click();
     }
 
@@ -280,12 +245,10 @@ public class Home {
 
     /**
      * This method is used to go to BootStrap Model page
-     *
-     * @throws InterruptedException
      */
-    public void gotoBootStrapModels() throws InterruptedException {
+    public void gotoBootStrapModels() {
         alert.click();
-        Thread.sleep(2000);
+        waitForElement(bootStrapModels);
         bootStrapModels.click();
     }
 
@@ -294,12 +257,10 @@ public class Home {
 
     /**
      * This method is used to go to Window popup Model page
-     *
-     * @throws InterruptedException
      */
-    public void gotoWindowPopupModal() throws InterruptedException {
+    public void gotoWindowPopupModal() {
         alert.click();
-        Thread.sleep(2000);
+        waitForElement(windowPopupModal);
         windowPopupModal.click();
     }
 
@@ -308,12 +269,10 @@ public class Home {
 
     /**
      * This method is used to go to Progress Bar Model page
-     *
-     * @throws InterruptedException
      */
-    public void gotoProgressBarModal() throws InterruptedException {
+    public void gotoProgressBarModal() {
         alert.click();
-        Thread.sleep(2000);
+        waitForElement(progressBarModal);
         progressBarModal.click();
     }
 
@@ -322,12 +281,10 @@ public class Home {
 
     /**
      * This method is used to go to JavaScript Alert page
-     *
-     * @throws InterruptedException
      */
-    public void gotoJavaScriptAlerts() throws InterruptedException {
+    public void gotoJavaScriptAlerts() {
         alert.click();
-        Thread.sleep(2000);
+        waitForElement(javaScriptAlerts);
         javaScriptAlerts.click();
     }
 
@@ -336,12 +293,10 @@ public class Home {
 
     /**
      * This method is used to go to File Download page
-     *
-     * @throws InterruptedException
      */
-    public void gotoFileDownload() throws InterruptedException {
+    public void gotoFileDownload() {
         alert.click();
-        Thread.sleep(2000);
+        waitForElement(fileDownload);
         fileDownload.click();
     }
 
@@ -354,12 +309,10 @@ public class Home {
 
     /**
      * This method is used to go to BootStrap List Box page
-     *
-     * @throws InterruptedException
      */
-    public void gotoBootStrapListBox() throws InterruptedException {
+    public void gotoBootStrapListBox() {
         listBox.click();
-        Thread.sleep(2000);
+        waitForElement(bootStrapListBox);
         bootStrapListBox.click();
     }
 
@@ -368,12 +321,10 @@ public class Home {
 
     /**
      * This method is used to go to JQuery List Box page
-     *
-     * @throws InterruptedException
      */
-    public void gotoJQueryListBox() throws InterruptedException {
+    public void gotoJQueryListBox() {
         listBox.click();
-        Thread.sleep(2000);
+        waitForElement(jQueryListBox);
         jQueryListBox.click();
     }
 
@@ -382,12 +333,10 @@ public class Home {
 
     /**
      * This method is used to go to Data List Filter page
-     *
-     * @throws InterruptedException
      */
-    public void gotoDataListFilter() throws InterruptedException {
+    public void gotoDataListFilter() {
         listBox.click();
-        Thread.sleep(2000);
+        waitForElement(dataListFilter);
         dataListFilter.click();
     }
 
@@ -400,12 +349,10 @@ public class Home {
 
     /**
      * This method is used to go to Drag and drop page
-     *
-     * @throws InterruptedException
      */
-    public void gotoDragNDrop() throws InterruptedException {
+    public void gotoDragNDrop() {
         others.click();
-        Thread.sleep(2000);
+        waitForElement(dragNDrop);
         dragNDrop.click();
     }
 
@@ -414,12 +361,10 @@ public class Home {
 
     /**
      * This method is used to go to Dynamic data Loading page
-     *
-     * @throws InterruptedException
      */
-    public void gotoDynamicDataLoading() throws InterruptedException {
+    public void gotoDynamicDataLoading() {
         others.click();
-        Thread.sleep(2000);
+        waitForElement(dynamicDataLoading);
         dynamicDataLoading.click();
     }
 
@@ -428,13 +373,19 @@ public class Home {
 
     /**
      * This method is used to go to Chart demo page
-     *
-     * @throws InterruptedException
      */
-    public void gotoChartDemo() throws InterruptedException {
+    public void gotoChartDemo() {
         others.click();
-        Thread.sleep(2000);
+        waitForElement(chartDemo);
         chartDemo.click();
+    }
+
+    @FindBy(linkText = "Demo Home")
+    private WebElement demoHome;
+
+    public void backHome() {
+        waitForElement(demoHome);
+        demoHome.click();
     }
 
 
