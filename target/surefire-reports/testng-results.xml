@@ -146,12 +146,12 @@
       <![CDATA[Assert the expected button status with actual button status]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="31549" started-at="2018-06-18T21:54:19Z" finished-at="2018-06-18T21:54:50Z">
+  <suite name="Suite" duration-ms="29462" started-at="2018-06-19T09:19:14Z" finished-at="2018-06-19T09:19:43Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="10769" started-at="2018-06-18T21:54:19Z" finished-at="2018-06-18T21:54:29Z">
+    <test name="Test1" duration-ms="9576" started-at="2018-06-19T09:19:14Z" finished-at="2018-06-19T09:19:23Z">
       <class name="InputForms">
-        <test-method status="PASS" signature="beforeConfigBrowser(java.lang.String)[pri:0, instance:InputForms@54a097cc]" name="beforeConfigBrowser" is-config="true" duration-ms="1947" started-at="2018-06-18T21:54:19Z" finished-at="2018-06-18T21:54:21Z">
+        <test-method status="PASS" signature="beforeConfigBrowser(java.lang.String)[pri:0, instance:InputForms@3551a94]" name="beforeConfigBrowser" is-config="true" duration-ms="1544" started-at="2018-06-19T09:19:14Z" finished-at="2018-06-19T09:19:15Z">
           <params>
             <param index="0">
               <value>
@@ -162,11 +162,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeConfigBrowser -->
-        <test-method status="PASS" signature="openUrl()[pri:0, instance:InputForms@54a097cc]" name="openUrl" is-config="true" duration-ms="4146" started-at="2018-06-18T21:54:21Z" finished-at="2018-06-18T21:54:25Z">
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:InputForms@3551a94]" name="openUrl" is-config="true" duration-ms="3721" started-at="2018-06-19T09:19:15Z" finished-at="2018-06-19T09:19:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method status="PASS" signature="simpleFormTest()[pri:1, instance:InputForms@54a097cc]" name="simpleFormTest" duration-ms="2083" started-at="2018-06-18T21:54:25Z" finished-at="2018-06-18T21:54:27Z">
+        <test-method status="PASS" signature="simpleFormTest()[pri:1, instance:InputForms@3551a94]" name="simpleFormTest" duration-ms="1868" started-at="2018-06-19T09:19:19Z" finished-at="2018-06-19T09:19:21Z">
           <reporter-output>
             <line>
               <![CDATA[Goto The Simple Form Demo Page]]>
@@ -209,15 +209,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- simpleFormTest -->
-        <test-method status="PASS" signature="returnHome()[pri:0, instance:InputForms@54a097cc]" name="returnHome" is-config="true" duration-ms="550" started-at="2018-06-18T21:54:27Z" finished-at="2018-06-18T21:54:27Z">
+        <test-method status="PASS" signature="returnHome()[pri:0, instance:InputForms@3551a94]" name="returnHome" is-config="true" duration-ms="421" started-at="2018-06-19T09:19:21Z" finished-at="2018-06-19T09:19:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- returnHome -->
-        <test-method status="PASS" signature="openUrl()[pri:0, instance:InputForms@54a097cc]" name="openUrl" is-config="true" duration-ms="239" started-at="2018-06-18T21:54:27Z" finished-at="2018-06-18T21:54:28Z">
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:InputForms@3551a94]" name="openUrl" is-config="true" duration-ms="279" started-at="2018-06-19T09:19:21Z" finished-at="2018-06-19T09:19:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method status="PASS" signature="checkBoxTest()[pri:2, instance:InputForms@54a097cc]" name="checkBoxTest" duration-ms="1313" started-at="2018-06-18T21:54:28Z" finished-at="2018-06-18T21:54:29Z">
+        <test-method status="PASS" signature="checkBoxTest()[pri:2, instance:InputForms@3551a94]" name="checkBoxTest" duration-ms="1297" started-at="2018-06-19T09:19:22Z" finished-at="2018-06-19T09:19:23Z">
           <reporter-output>
             <line>
               <![CDATA[Goto Vheckbox demo page]]>
@@ -254,19 +254,19 @@
             </line>
           </reporter-output>
         </test-method> <!-- checkBoxTest -->
-        <test-method status="PASS" signature="returnHome()[pri:0, instance:InputForms@54a097cc]" name="returnHome" is-config="true" duration-ms="394" started-at="2018-06-18T21:54:29Z" finished-at="2018-06-18T21:54:29Z">
+        <test-method status="PASS" signature="returnHome()[pri:0, instance:InputForms@3551a94]" name="returnHome" is-config="true" duration-ms="349" started-at="2018-06-19T09:19:23Z" finished-at="2018-06-19T09:19:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- returnHome -->
-        <test-method status="PASS" signature="afterConfigBrowser()[pri:0, instance:InputForms@54a097cc]" name="afterConfigBrowser" is-config="true" duration-ms="73" started-at="2018-06-18T21:54:29Z" finished-at="2018-06-18T21:54:29Z">
+        <test-method status="PASS" signature="afterConfigBrowser()[pri:0, instance:InputForms@3551a94]" name="afterConfigBrowser" is-config="true" duration-ms="72" started-at="2018-06-19T09:19:23Z" finished-at="2018-06-19T09:19:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterConfigBrowser -->
       </class> <!-- InputForms -->
     </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="20761" started-at="2018-06-18T21:54:29Z" finished-at="2018-06-18T21:54:50Z">
+    <test name="Test2" duration-ms="19870" started-at="2018-06-19T09:19:23Z" finished-at="2018-06-19T09:19:43Z">
       <class name="InputForms">
-        <test-method status="PASS" signature="beforeConfigBrowser(java.lang.String)[pri:0, instance:InputForms@5afa04c]" name="beforeConfigBrowser" is-config="true" duration-ms="8601" started-at="2018-06-18T21:54:29Z" finished-at="2018-06-18T21:54:38Z">
+        <test-method status="PASS" signature="beforeConfigBrowser(java.lang.String)[pri:0, instance:InputForms@7921b0a2]" name="beforeConfigBrowser" is-config="true" duration-ms="7489" started-at="2018-06-19T09:19:23Z" finished-at="2018-06-19T09:19:31Z">
           <params>
             <param index="0">
               <value>
@@ -277,11 +277,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeConfigBrowser -->
-        <test-method status="PASS" signature="openUrl()[pri:0, instance:InputForms@5afa04c]" name="openUrl" is-config="true" duration-ms="5216" started-at="2018-06-18T21:54:38Z" finished-at="2018-06-18T21:54:43Z">
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:InputForms@7921b0a2]" name="openUrl" is-config="true" duration-ms="5421" started-at="2018-06-19T09:19:31Z" finished-at="2018-06-19T09:19:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method status="PASS" signature="simpleFormTest()[pri:1, instance:InputForms@5afa04c]" name="simpleFormTest" duration-ms="2725" started-at="2018-06-18T21:54:43Z" finished-at="2018-06-18T21:54:46Z">
+        <test-method status="PASS" signature="simpleFormTest()[pri:1, instance:InputForms@7921b0a2]" name="simpleFormTest" duration-ms="2641" started-at="2018-06-19T09:19:36Z" finished-at="2018-06-19T09:19:39Z">
           <reporter-output>
             <line>
               <![CDATA[Goto The Simple Form Demo Page]]>
@@ -324,15 +324,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- simpleFormTest -->
-        <test-method status="PASS" signature="returnHome()[pri:0, instance:InputForms@5afa04c]" name="returnHome" is-config="true" duration-ms="569" started-at="2018-06-18T21:54:46Z" finished-at="2018-06-18T21:54:47Z">
+        <test-method status="PASS" signature="returnHome()[pri:0, instance:InputForms@7921b0a2]" name="returnHome" is-config="true" duration-ms="695" started-at="2018-06-19T09:19:39Z" finished-at="2018-06-19T09:19:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- returnHome -->
-        <test-method status="PASS" signature="openUrl()[pri:0, instance:InputForms@5afa04c]" name="openUrl" is-config="true" duration-ms="371" started-at="2018-06-18T21:54:47Z" finished-at="2018-06-18T21:54:47Z">
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:InputForms@7921b0a2]" name="openUrl" is-config="true" duration-ms="397" started-at="2018-06-19T09:19:40Z" finished-at="2018-06-19T09:19:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method status="PASS" signature="checkBoxTest()[pri:2, instance:InputForms@5afa04c]" name="checkBoxTest" duration-ms="1767" started-at="2018-06-18T21:54:47Z" finished-at="2018-06-18T21:54:49Z">
+        <test-method status="PASS" signature="checkBoxTest()[pri:2, instance:InputForms@7921b0a2]" name="checkBoxTest" duration-ms="1812" started-at="2018-06-19T09:19:40Z" finished-at="2018-06-19T09:19:42Z">
           <reporter-output>
             <line>
               <![CDATA[Goto Vheckbox demo page]]>
@@ -369,11 +369,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- checkBoxTest -->
-        <test-method status="PASS" signature="returnHome()[pri:0, instance:InputForms@5afa04c]" name="returnHome" is-config="true" duration-ms="422" started-at="2018-06-18T21:54:49Z" finished-at="2018-06-18T21:54:49Z">
+        <test-method status="PASS" signature="returnHome()[pri:0, instance:InputForms@7921b0a2]" name="returnHome" is-config="true" duration-ms="445" started-at="2018-06-19T09:19:42Z" finished-at="2018-06-19T09:19:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- returnHome -->
-        <test-method status="PASS" signature="afterConfigBrowser()[pri:0, instance:InputForms@5afa04c]" name="afterConfigBrowser" is-config="true" duration-ms="1083" started-at="2018-06-18T21:54:49Z" finished-at="2018-06-18T21:54:50Z">
+        <test-method status="PASS" signature="afterConfigBrowser()[pri:0, instance:InputForms@7921b0a2]" name="afterConfigBrowser" is-config="true" duration-ms="969" started-at="2018-06-19T09:19:42Z" finished-at="2018-06-19T09:19:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterConfigBrowser -->
