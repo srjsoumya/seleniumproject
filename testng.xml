@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" thread-count="3" >
-    <!--<test  name="Test1">-->
-        <!--<parameter name="Browser" value="Chrome"/>-->
-        <!--<classes>-->
-            <!--<class name="InputForms"/>-->
-        <!--</classes>-->
-    <!--</test> &lt;!&ndash; Test &ndash;&gt;-->
-    <test  name="Test2">
-        <parameter name="Browser" value="Firefox"/>
+    <test  name="Test1">
+        <parameter name="Browser" value="Chrome"/>
         <classes>
             <class name="InputForms"/>
         </classes>
-    </test>
+    </test> <!-- Test -->
+    <!--<test  name="Test2">-->
+        <!--<parameter name="Browser" value="Firefox"/>-->
+        <!--<classes>-->
+            <!--<class name="InputForms"/>-->
+        <!--</classes>-->
+    <!--</test>-->
 </suite> <!-- Suite -->
