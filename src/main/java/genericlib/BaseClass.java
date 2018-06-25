@@ -19,7 +19,7 @@ public class BaseClass {
     @BeforeClass
     public void beforeConfigBrowser(String browserName) {
         if (browserName.equals("Chrome")) {
-            System.setProperty("webdriver.chrome.driver", "src/main/resources/ServerFile/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "src/main/resources/ServerFile/chromedriver.exe");
             driver = new ChromeDriver();
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
